@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Light.ttf");
+  }
+
+body,html{
+    margin: 0;
+    padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.celularFundo{
+    width: 500px;
+    height: 650px;
+    background-position: center;
+    background-image: url(/images/celular.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.fundoNotch{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    background-color: rgba(165, 42, 42, 0);
+}
+
+.notch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    width: 110px;
+    height: 29px;
+    margin-top: 3px;
+    border-radius: 30px;
+    transition: 0.6s;
+    overflow: hidden;
+}
+
+/* .notch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    width: 250px;
+    height: 130px;
+    margin-top: 3px;
+    border-radius: 25px;
+    transition: 0.6s;
+} */
+
+/* .notch:hover{
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+} */
+.centerCamera{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(82, 82, 82);
+    border-radius: 50%;
+    position: fixed;
+    margin-right: -70px;
+    margin-top: 8px;
+}
+.camera2{
+    width: 13px;
+    height: 13px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 50%;
+    position: fixed;
+}
+
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
+    scale: 0.9;
+    transition: 0.3s;
+}
+
+.button:hover{
+    scale: 1;
+}
+
+.imagebutton{
+    width: 50px;
+    height: 50px;
+}
+
+.playerSpotify{
+    display: none;
+}
+
+.nothcSpotify{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    align-items: left;
+}
+
+.logoSpotify{
+    display: flex;
+    margin-top: 6px;
+    margin-left: 6px;
+    width: 17px;
+    height: 17px;
+    transition: 0.6s;
+}
+
+.line1{
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    scale: 0.95;
+}
+
+.lineMusicInfos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.musicName{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    
+}
+
+.musicAutor{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin-left: 10px; 
+    margin-top: -12px;
+}
+
+.musicIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time1{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.progressBar{
+    
+    height: 6px;
+    width: 150px;
+    appearance: none;
+
+
+
+   
+
+}
+
+::-webkit-progress-bar {
+    background-color: #3f3f3f;
+    border-radius: 10px;
+    
+}
+
+::-webkit-progress-value {
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.line3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.next1{
+    margin-right: 20px;
+    transform: rotate(180deg);
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.pausePlay{
+    width: 21px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.next2{
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+.transmission{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
