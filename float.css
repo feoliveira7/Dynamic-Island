@@ -18,7 +18,7 @@ align-items: center;
     width: 500px;
     height: 650px;
     background-position: center;
-    background-image: url(./images/celular.png);
+    background-image: url(../images/celular.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
